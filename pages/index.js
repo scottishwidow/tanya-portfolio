@@ -15,6 +15,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { IoLogoInstagram } from 'react-icons/io'
+import { IoLogoFacebook } from 'react-icons/io'
 
 const Page = () => {
   return (
@@ -131,8 +133,12 @@ const Page = () => {
                 href="https://www.instagram.com/tanyademyanets?igsh=ZWZrdXh3ZWxqcnB2"
                 target="_blank"
               >
-                <Button variant="ghost" colorScheme="orange">
-                  @instagram
+                <Button
+                  variant="ghost"
+                  colorScheme="orange"
+                  leftIcon={<IoLogoInstagram />}
+                >
+                  @tanyademyanets
                 </Button>
               </Link>
             </ListItem>
@@ -141,8 +147,12 @@ const Page = () => {
                 href="https://www.facebook.com/tanya.demyanets"
                 target="_blank"
               >
-                <Button variant="ghost" colorScheme="orange">
-                  @facebook
+                <Button
+                  variant="ghost"
+                  colorScheme="orange"
+                  leftIcon={<IoLogoFacebook />}
+                >
+                  @tanya.demyanets
                 </Button>
               </Link>
             </ListItem>
