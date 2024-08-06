@@ -17,6 +17,8 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js'
+import { IoLogoInstagram } from 'react-icons/io5'
+
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
@@ -87,12 +89,14 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            Social
+            <IoLogoInstagram />
+            Instagram
           </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
+
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton
@@ -102,20 +106,18 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
-                <NextLink href="/work" passHref>
-                  <MenuItem as={Link}>Work</MenuItem>
-                </NextLink>
-                <NextLink href="/work" passHref>
-                  <MenuItem
-                    as={Link}
-                    href="https://www.instagram.com/tanyademyanets?igsh=ZWZrdXh3ZWxqcnB2"
-                  >
-                    View Social
-                  </MenuItem>
-                </NextLink>
+                <MenuItem as={MenuLink} href="/">
+                  About
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/work">
+                  Work
+                </MenuItem>
+                <MenuItem
+                  as={MenuLink}
+                  href="https://www.instagram.com/tanyademyanets?igsh=ZWZrdXh3ZWxqcnB2"
+                >
+                  Instagram
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>

@@ -1,6 +1,13 @@
 const FootprintIcon = props => {
   return (
-    <svg height={20} width={20} viewBox="60 0 480 600">
+    <svg
+      height={20}
+      width={20}
+      className="w-5 inline-block transition-transform group-hover:rotate-[20deg]"
+      viewBox="60 0 480 600"
+      fill="currentColor"
+      {...props}
+    >
       <circle style={{ fill: '#F2CF61' }} cx="256" cy="256" r="256" />
       <path
         style={{ fill: '#66401E' }}
