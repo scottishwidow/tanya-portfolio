@@ -7,6 +7,9 @@ import thumbMagazines from '../public/images/Magazine1.jpg'
 import thumbCards from '../public/images/Card1.jpg'
 import thumbPostcards from '../public/images/Postcard1.jpg'
 import thumbBillboards from '../public/images/Board1.jpg'
+import thumbLogos from '../public/images/Logo8.jpg'
+import thumbClothes from '../public/images/T-shirt2.jpg'
+
 const Work = () => (
   <Layout title="Work">
     <Container>
@@ -14,11 +17,11 @@ const Work = () => (
         Work
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={7}>
         <Section>
           <WorkGridItem
-            id="businesscard"
-            title="Business Cards"
+            id="businesscards"
+            title="Businesscards"
             thumbnail={thumbCards}
           ></WorkGridItem>
         </Section>
@@ -32,7 +35,7 @@ const Work = () => (
         <Section>
           <WorkGridItem
             id="postcards"
-            title="Post Cards"
+            title="Postcards"
             thumbnail={thumbPostcards}
           ></WorkGridItem>
         </Section>
@@ -41,6 +44,20 @@ const Work = () => (
             id="billboards"
             title="Billboards"
             thumbnail={thumbBillboards}
+          ></WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="logos"
+            title="Logos"
+            thumbnail={thumbLogos}
+          ></WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="clothes"
+            title="Clothes"
+            thumbnail={thumbClothes}
           ></WorkGridItem>
         </Section>
       </SimpleGrid>
