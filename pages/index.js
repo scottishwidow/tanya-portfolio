@@ -25,49 +25,50 @@ const Page = () => {
         <Box
           borderRadius="lg"
           bg={useColorModeValue('orange.400', 'orange.200')}
-          p={3}
+          p={2}
           mb={6}
+          mt={6}
           align="center"
           color="black"
         >
           Hello, I&apos;m a graphic designer based in Ukraine!
         </Box>
-        <Box display={{ md: 'flex' }}>
+        <Box display={{ md: 'flex' }} alignItems="center">
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Tanya Demianets
             </Heading>
             <p>( Graphic Designer / Photographer )</p>
           </Box>
-        </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 1 }}
-          ml={{ md: 6 }}
-          align="center"
-        >
           <Box
-            borderColor="orange.300"
-            borderWidth={3}
-            borderStyle="solid"
-            w="100px"
-            h="100px"
-            display="inline-block"
-            borderRadius="full"
-            overflow="hidden"
+            flexShrink={0}
+            mt={{ base: 4, md: 0 }}
+            ml={{ md: 6 }}
+            align="center"
           >
-            <Image
-              src="/images/photo_2024-07-26_10-19-23.jpg"
-              alt="Profile image"
-              width="100"
-              height="100"
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'cover',
-                objectPosition: 'center'
-              }}
-            />
+            <Box
+              borderColor="orange.300"
+              borderWidth={3}
+              borderStyle="solid"
+              w="100px"
+              h="100px"
+              display="inline-block"
+              borderRadius="full"
+              overflow="hidden"
+            >
+              <Image
+                src="/images/photo_2024-07-26_10-19-23.jpg"
+                alt="Profile image"
+                width="100"
+                height="100"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center'
+                }}
+              />
+            </Box>
           </Box>
         </Box>
         <Section delay={0.1}>
