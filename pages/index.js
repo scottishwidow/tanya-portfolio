@@ -17,6 +17,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoInstagram } from 'react-icons/io'
 import { IoLogoFacebook } from 'react-icons/io'
+import Footer from '../components/footer'
 
 const Page = () => {
   return (
@@ -160,6 +161,7 @@ const Page = () => {
           </List>
         </Section>
       </Container>
+      <Footer />
     </Layout>
   )
 }
