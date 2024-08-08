@@ -9,6 +9,7 @@ import thumbPostcards from '../public/images/Postcard1.jpg'
 import thumbBillboards from '../public/images/Board1.jpg'
 import thumbLogos from '../public/images/Logo8.jpg'
 import thumbClothes from '../public/images/T-shirt2.jpg'
+import thumbOther from '../public/images/Pensil1.jpg'
 
 const Work = () => (
   <Layout title="Work">
@@ -58,6 +59,13 @@ const Work = () => (
             id="clothes"
             title="Clothes"
             thumbnail={thumbClothes}
+          ></WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="other"
+            title="Other"
+            thumbnail={thumbOther}
           ></WorkGridItem>
         </Section>
       </SimpleGrid>
