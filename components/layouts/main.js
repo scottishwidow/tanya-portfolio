@@ -10,7 +10,6 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Tania's homepage" />
         <meta name="author" content="@scottishwidow" />
         <meta name="author" content="@scottishwidow" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Tanya Demianets" />
         <meta name="og:title" content="Tanya Demianets" />
