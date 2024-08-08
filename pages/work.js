@@ -74,3 +74,4 @@ const Work = () => (
 )
 
 export default Work
+export { GetServerSideProps } from '../components/chakra'
