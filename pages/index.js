@@ -60,6 +60,7 @@ const Home = () => (
               alt="Profile image"
               width="1000"
               height="1000"
+              style={{ marginTop: '-30px' }}
             />
           </Box>
         </Box>
