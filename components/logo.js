@@ -18,7 +18,7 @@ const LogoBox = styled.span`
   }
 
   &:hover > svg {
-    transform: rotate(20deg) scale(2);
+    transform: rotate(20deg); scale(2);
   }
 `
 

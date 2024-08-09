@@ -1,24 +1,23 @@
-import { Container } from '@chakra-ui/react'
-import { Title, WorkImage } from '../../components/work'
+import { Container, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
+import { WorkImage } from '../../components/work'
 
-const Work = () => {
-  return (
-    <Layout title="Logos">
-      <Container>
-        <Title>Logos</Title>
-        <WorkImage src="/images/work/Logo1.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo2.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo3.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo4.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo5.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo6.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo7.jpg" alt="Logos" />
-        <WorkImage src="/images/work/Logo8.jpg" alt="Logos" />
-      </Container>
-    </Layout>
-  )
-}
+const Work = () => (
+  <Layout title="Logos">
+    <Container>
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/Logos/Logo1.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo2.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo3.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo4.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo5.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo6.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo7.jpg" alt="logos" />
+        <WorkImage src="/images/works/Logos/Logo8.jpg" alt="logos" />
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
 
 export default Work
 export { getServerSideProps } from '../../components/chakra'

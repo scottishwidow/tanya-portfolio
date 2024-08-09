@@ -1,22 +1,21 @@
-import { Container } from '@chakra-ui/react'
-import { Title, WorkImage } from '../../components/work'
+import { Container, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
+import { WorkImage } from '../../components/work'
 
-const Work = () => {
-  return (
-    <Layout title="Clothes">
-      <Container>
-        <Title>Clothes</Title>
-        <WorkImage src="/images/work/Sweatshirt1.jpg" alt="Clothes" />
-        <WorkImage src="/images/work/Sweatshirt2.jpg" alt="Clothes" />
-        <WorkImage src="/images/work/T-shirt1.jpg" alt="Clothes" />
-        <WorkImage src="/images/work/T-shirt2.jpg" alt="Clothes" />
-        <WorkImage src="/images/work/T-shirt3.jpg" alt="Clothes" />
-        <WorkImage src="/images/work/T-shirt4.jpg" alt="Clothes" />
-      </Container>
-    </Layout>
-  )
-}
+const Work = () => (
+  <Layout title="Clothes">
+    <Container>
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/Clothes/Sweatshirt1.jpg" alt="clothes" />
+        <WorkImage src="/images/works/Clothes/Sweatshirt2.jpg" alt="clothes" />
+        <WorkImage src="/images/works/Clothes/T-shirt1.jpg" alt="clothes" />
+        <WorkImage src="/images/works/Clothes/T-shirt2.jpg" alt="clothes" />
+        <WorkImage src="/images/works/Clothes/T-shirt3.jpg" alt="clothes" />
+        <WorkImage src="/images/works/Clothes/T-shirt4.jpg" alt="clothes" />
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
 
 export default Work
 export { getServerSideProps } from '../../components/chakra'

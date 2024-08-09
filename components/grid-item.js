@@ -12,9 +12,6 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
-        width={300} // Set a fixed width
-        height={200} // Set a fixed height
-        objectFit="cover" // Maintain aspect ratio
       />
       <LinkOverlay href={href} target="_blank">
         <Text mt={2}>{title}</Text>
@@ -43,9 +40,6 @@ export const WorkGridItem = ({
         alt={title}
         className="grid-item-thumbnail"
         placeholder="blur"
-        width={300} // Set a fixed width
-        height={200} // Set a fixed height
-        objectFit="cover" // Maintain aspect ratio
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
@@ -62,9 +56,6 @@ export const GridItemStyle = () => (
     styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
-        width: 300px;  // Ensure consistent width
-        height: 200px; // Ensure consistent height
-        object-fit: cover; // Maintain aspect ratio
       }
     `}
   />

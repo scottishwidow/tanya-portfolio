@@ -1,20 +1,31 @@
-import { Container } from '@chakra-ui/react'
-import { Title, WorkImage } from '../../components/work'
+import { Container, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
+import { WorkImage } from '../../components/work'
 
-const Work = () => {
-  return (
-    <Layout title="Magazines">
-      <Container>
-        <Title>Magazines</Title>
-        <WorkImage src="/images/work/Magazine1.jpg" alt="Magazines" />
-        <WorkImage src="/images/work/Magazine2.jpg" alt="Magazines" />
-        <WorkImage src="/images/work/Magazine3.jpg" alt="Magazines" />
-        <WorkImage src="/images/work/Magazine4.jpg" alt="Magazines" />
-      </Container>
-    </Layout>
-  )
-}
+const Work = () => (
+  <Layout title="Magazines">
+    <Container>
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage
+          src="/images/works/Magazines/Magazine1.jpg"
+          alt="magazines"
+        />
+        <WorkImage
+          src="/images/works/Magazines/Magazine2.jpg"
+          alt="magazines"
+        />
+        <WorkImage
+          src="/images/works/Magazines/Magazine3.jpg"
+          alt="magazines"
+        />
+        <WorkImage
+          src="/images/works/Magazines/Magazine4.jpg"
+          alt="magazines"
+        />
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
 
 export default Work
 export { getServerSideProps } from '../../components/chakra'

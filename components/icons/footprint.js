@@ -1,8 +1,8 @@
 const FootprintIcon = props => {
   return (
     <svg
-      height={25}
-      width={35}
+      width={25}
+      height={35}
       className="w-5 inline-block transition-transform group-hover:rotate-[20deg]"
       viewBox="0 0 80 70"
       fill="orange"

@@ -16,7 +16,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './theme-toggle-button.js'
+import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoInstagram } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -77,8 +77,8 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/work" path={path}>
-            Work
+          <LinkItem href="/works" path={path}>
+            Works
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -98,7 +98,7 @@ const Navbar = props => {
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu>
+            <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
                 icon={<HamburgerIcon />}
@@ -109,11 +109,11 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/work">
-                  Work
+                <MenuItem as={MenuLink} href="/works">
+                  Works
                 </MenuItem>
                 <MenuItem
-                  as={MenuLink}
+                  as={Link}
                   href="https://www.instagram.com/tanyademyanets?igsh=ZWZrdXh3ZWxqcnB2"
                 >
                   Instagram

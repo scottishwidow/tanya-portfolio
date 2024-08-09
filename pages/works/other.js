@@ -1,27 +1,29 @@
-import { Container } from '@chakra-ui/react'
-import { Title, WorkImage } from '../../components/work'
+import { Container, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
+import { WorkImage } from '../../components/work'
 
-const Work = () => {
-  return (
-    <Layout title="Other">
-      <Container>
-        <Title>Other</Title>
-        <WorkImage src="/images/work/Badge1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Badge2.jpg" alt="Other" />
-        <WorkImage src="/images/work/Badge3.jpg" alt="Other" />
-        <WorkImage src="/images/work/Case1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Case2.jpg" alt="Other" />
-        <WorkImage src="/images/work/Case3.jpg" alt="Other" />
-        <WorkImage src="/images/work/Notebook1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Pensil1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Pin1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Stand1.jpg" alt="Other" />
-        <WorkImage src="/images/work/Sticker1.jpg" alt="Other" />
-      </Container>
-    </Layout>
-  )
-}
+const Work = () => (
+  <Layout title="Other">
+    <Container>
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/Other/Badge1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Badge2.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Badge3.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Board1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Board2.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Board3.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Board4.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Case1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Case2.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Notebook1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Pensil1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Pin1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Stand1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Sticker1.jpg" alt="other" />
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
 
 export default Work
 export { getServerSideProps } from '../../components/chakra'

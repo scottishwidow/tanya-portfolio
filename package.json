@@ -1,30 +1,33 @@
 {
-  "name": "tanya-portfolio",
+  "name": "tanya-homepage",
   "version": "1.0.0",
+  "description": "Tanya's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
-    "prettier": "prettier -write .",
+    "start": "next start",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Michael Korotchenko<hi@scottishwidow",
+  "author": "@scottishwidow",
   "license": "MIT",
-  "description": "Tanya's Website",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "framer-motion": "^11.3.21",
-    "next": "^14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.2.1"
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@vercel/analytics": "^1.1.1",
+    "framer-motion": "^10.16.4",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "three": "^0.157.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.5",
-    "prettier": "^3.3.3"
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^13.5.6",
+    "prettier": "^3.0.3"
   }
 }
