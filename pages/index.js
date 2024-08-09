@@ -37,7 +37,7 @@ const Page = () => {
         <Box display={{ md: 'flex' }} alignItems="center">
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Tanya Demianets
+              Tanya Demyanets
             </Heading>
             <p>( Graphic Designer / Photographer )</p>
           </Box>

@@ -8,14 +8,13 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Tania's homepage" />
-        <meta name="author" content="@scottishwidow" />
-        <meta name="author" content="@scottishwidow" />
+        <meta name="author" content="scottishwidow" />
+        <meta name="author" content="scottishwidow" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Tanya Demianets" />
         <meta name="og:title" content="Tanya Demianets" />
         <meta property="og:type" content="website" />
-
-        <title>Tanya Demianets - Homepage</title>
+        <title>Tanya Demyanets - Homepage</title>
       </Head>
 
       <Navbar path={router.asPath} />
