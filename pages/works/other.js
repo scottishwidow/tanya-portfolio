@@ -5,7 +5,7 @@ import { WorkImage } from '../../components/work'
 const Work = () => (
   <Layout title="Other">
     <Container>
-      <SimpleGrid columns={2} gap={2}>
+      <SimpleGrid columns={1} gap={2}>
         <WorkImage src="/images/works/Other/14.jpg" />
         <WorkImage src="/images/works/Other/Badge1.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Badge2.jpg" alt="other" />

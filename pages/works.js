@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbBusinesscards from '../public/images/works/BusinessCards/BusinessCard2.jpg'
+import thumbBusinesscards from '../public/images/works/BusinessCards/BusinessCard8.jpg'
 import thumbClothes from '../public/images/works/Clothes/T-shirt1.jpg'
 import thumbPostcards from '../public/images/works/Postcards/3.jpg'
 import thumbBoardposters from '../public/images/works/Board Posters/Board2.jpg'
