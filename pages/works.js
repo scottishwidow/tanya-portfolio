@@ -5,11 +5,12 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbBusinesscards from '../public/images/works/BusinessCards/BusinessCard2.jpg'
 import thumbClothes from '../public/images/works/Clothes/T-shirt1.jpg'
-import thumbPostcards from '../public/images/works/Postcards/5.jpg'
-import thumbMagazines from '../public/images/works/Magazines/Magazine1.jpg'
-import thumbLogos from '../public/images/works/Logos/Logo1.jpg'
-import thumbOther from '../public/images/works/Other/Case1.jpg'
-import thumbOld from '../public/images/works/Old/Board5.jpg'
+import thumbPostcards from '../public/images/works/Postcards/3.jpg'
+import thumbBoardposters from '../public/images/works/Board Posters/Board2.jpg'
+import thumbLogos from '../public/images/works/Logos/Logo2.jpg'
+import thumbOther from '../public/images/works/Other/Pensil1.jpg'
+import thumbOld from '../public/images/works/Old/Banner1.jpg'
+import thumbFlayers from '../public/images/works/Flayers/8.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -43,9 +44,9 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem
-            id="magazines"
-            thumbnail={thumbMagazines}
-            title="Magazines"
+            id="boardposters"
+            thumbnail={thumbBoardposters}
+            title="Boards and Posters"
           ></WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -60,6 +61,13 @@ const Works = () => (
             id="other"
             thumbnail={thumbOther}
             title="Other"
+          ></WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="flayers"
+            thumbnail={thumbFlayers}
+            title="Flayers"
           ></WorkGridItem>
         </Section>
       </SimpleGrid>

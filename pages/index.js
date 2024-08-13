@@ -108,7 +108,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2003 to 2010</BioYear>
-          Poltava Ciry School of Arts
+          Poltava City School of Arts
         </BioSection>
       </Section>
 

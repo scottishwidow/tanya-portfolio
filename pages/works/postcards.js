@@ -10,17 +10,8 @@ const Work = () => (
         <WorkImage src="/images/works/Postcards/2.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/3.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/4.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/5.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/7.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/8.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/9.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/10.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/11.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/12.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/13.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/14.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/15.jpg" alt="postcards" />
-        <WorkImage src="/images/works/Postcards/16.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/18.jpg" alt="postcards" />
         <WorkImage src="/images/works/Postcards/19.jpg" alt="postcards" />
       </SimpleGrid>

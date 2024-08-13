@@ -6,13 +6,14 @@ const Work = () => (
   <Layout title="Other">
     <Container>
       <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/Other/14.jpg" />
         <WorkImage src="/images/works/Other/Badge1.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Badge2.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Badge3.jpg" alt="other" />
-        <WorkImage src="/images/works/Other/Board1.jpg" alt="other" />
-        <WorkImage src="/images/works/Other/Board2.jpg" alt="other" />
-        <WorkImage src="/images/works/Other/Board3.jpg" alt="other" />
-        <WorkImage src="/images/works/Other/Board4.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Magazine1.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Magazine2.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Magazine3.jpg" alt="other" />
+        <WorkImage src="/images/works/Other/Magazine4.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Case1.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Case2.jpg" alt="other" />
         <WorkImage src="/images/works/Other/Notebook1.jpg" alt="other" />

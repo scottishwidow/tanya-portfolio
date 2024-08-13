@@ -42,6 +42,14 @@ const Work = () => (
           src="/images/works/BusinessCards/BusinessCard9.jpg"
           alt="businesscards"
         />
+        <WorkImage
+          src="/images/works/BusinessCards/BusinessCard10.jpg"
+          alt="businesscards"
+        />
+        <WorkImage
+          src="/images/works/BusinessCards/BusinessCard11.jpg"
+          alt="businesscards"
+        />
       </SimpleGrid>
     </Container>
   </Layout>
