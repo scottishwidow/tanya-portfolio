@@ -25,7 +25,7 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('orange.400', 'orange.200')}
+        bg={useColorModeValue('orange.500', 'orange.200')}
         css={{ backdropFilter: 'blur(10px)' }}
         color="black"
       >
