@@ -124,7 +124,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                color="#DD6B20"
+                color={useColorModeValue('#DD6B20', 'orange.200')}
                 leftIcon={<IoLogoFacebook />}
               >
                 Facebook
@@ -138,7 +138,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                color="#DD6B20"
+                color={useColorModeValue('#DD6B20', 'orange.200')}
                 leftIcon={<IoLogoInstagram />}
               >
                 Instagram
