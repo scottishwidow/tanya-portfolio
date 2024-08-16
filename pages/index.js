@@ -27,7 +27,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('orange.500', 'orange.200')}
         css={{ backdropFilter: 'blur(10px)' }}
-        color="black"
+        color={useColorModeValue('white', 'black')}
       >
         Hello, I&apos;m a graphic designer based in Ukraine!
       </Box>
@@ -124,7 +124,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                colorScheme="orange"
+                color="#DD6B20"
                 leftIcon={<IoLogoFacebook />}
               >
                 Facebook
@@ -138,7 +138,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                colorScheme="orange"
+                color="#DD6B20"
                 leftIcon={<IoLogoInstagram />}
               >
                 Instagram
