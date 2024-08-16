@@ -104,7 +104,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Adobe Illustrator: Intensive - School of Visual Communication
+          School of Visual Communication - Adobe Illustrator: Intensive
         </BioSection>
         <BioSection>
           <BioYear>2003 to 2010</BioYear>
